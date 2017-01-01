@@ -37,10 +37,10 @@ To combine the streams you can pipe into another `gulp.src` or use `es.merge` (f
 
 ## Usage
 
-`require("gulp-order")` returns a function that takes an array of patterns (as `gulp.src` would take).
+`require("gulp-order2")` returns a function that takes an array of patterns (as `gulp.src` would take).
 
 ```javascript
-var order = require("gulp-order");
+var order = require("gulp-order2");
 var coffee = require("gulp-coffee");
 var concat = require("gulp-concat");
 
