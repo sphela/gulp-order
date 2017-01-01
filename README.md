@@ -7,6 +7,18 @@ The gulp plugin `gulp-order` allows you to reorder a stream of files using the s
 Forked from github.com/sphela/gulp-order, seems like previous author abandoned the project. I converted this project from coffeescript to JavaScript,
 and updated all the libraries.
 
+Install with:
+
+```
+yarn add gulp-order2 --dev
+```
+
+or
+
+```
+npm i gulp-order2 --save-dev
+```
+
 ## Motivation
 
 Assume you want to concatenate the following files in the given order (with `gulp-concat`):
