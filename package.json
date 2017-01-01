@@ -1,7 +1,7 @@
 {
   "name": "gulp-order2",
   "description": "The gulp plugin `gulp-order` allows you to reorder a stream of files using the same syntax as of `gulp.src`.",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "author": {
     "name": "Marcel Jackwerth",
     "email": "marceljackwerth@gmail.com",
@@ -31,13 +31,13 @@
     "url": "http://github.com/sirlantis/gulp-order/raw/master/LICENSE"
   },
   "devDependencies": {
-    "chai": "~1.9.0",
+    "chai": "^3.5.0",
     "decaffeinate": "^2.37.19",
-    "gulp-util": "~2.2.14",
+    "gulp-util": "^3.0.8",
     "mocha": "^3.2.0"
   },
   "dependencies": {
-    "minimatch": "0.2.14",
+    "minimatch": "^3.0.3",
     "stable": "0.1.5",
     "through2": "^2.0.3"
   },
