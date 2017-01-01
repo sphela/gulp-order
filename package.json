@@ -1,21 +1,27 @@
 {
-  "name": "gulp-order",
+  "name": "gulp-order2",
   "description": "The gulp plugin `gulp-order` allows you to reorder a stream of files using the same syntax as of `gulp.src`.",
-  "version": "1.1.1",
+  "version": "2.0.1",
   "author": {
     "name": "Marcel Jackwerth",
     "email": "marceljackwerth@gmail.com",
     "url": "http://twitter.com/sirlantis"
   },
+  "contributors": [
+    {
+      "name": "Bjorn Tipling",
+      "email": "bjorn@ambientchill.com",
+      "url": "http://bjorn.tipling.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/sirlantis/gulp-order.git"
+    "url": "git://github.com/sphela/gulp-order.git"
   },
-  "main": "lib/index.js",
-  "files": "lib",
+  "main": "src/index.js",
+  "files": "src",
   "scripts": {
-    "test": "node_modules/.bin/mocha",
-    "prepublish": "node_modules/.bin/coffee -o lib -c src/*.coffee"
+    "test": "node_modules/.bin/mocha"
   },
   "engines": {
     "node": "*"
@@ -25,15 +31,15 @@
     "url": "http://github.com/sirlantis/gulp-order/raw/master/LICENSE"
   },
   "devDependencies": {
-    "coffee-script": "~1.7.1",
-    "mocha": "~1.17.1",
     "chai": "~1.9.0",
-    "gulp-util": "~2.2.14"
+    "decaffeinate": "^2.37.19",
+    "gulp-util": "~2.2.14",
+    "mocha": "^3.2.0"
   },
   "dependencies": {
-    "through": "~2.3.4",
     "minimatch": "0.2.14",
-    "stable": "0.1.5"
+    "stable": "0.1.5",
+    "through2": "^2.0.3"
   },
   "keywords": [
     "gulp",
