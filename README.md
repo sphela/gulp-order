@@ -2,7 +2,8 @@
 
 The gulp plugin `gulp-order` allows you to reorder a stream of files using the same syntax as of `gulp.src`.
 
-*Note*
+**Note**
+
 Forked from github.com/sphela/gulp-order, seems like previous author abandoned the project. I converted this project from coffeescript to JavaScript,
 and updated all the libraries.
 
